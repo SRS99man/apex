@@ -1,0 +1,28 @@
+import type { Exercise } from '@/types/workouts';
+
+export const exercises: Exercise[] = [
+  { id: 'barbell-bench-press', name: 'Barbell bench press', muscles: ['chest', 'triceps', 'shoulders'], equipment: 'barbell', compound: true },
+  { id: 'incline-dumbbell-press', name: 'Incline dumbbell press', muscles: ['chest', 'shoulders', 'triceps'], equipment: 'dumbbell', compound: true },
+  { id: 'machine-chest-press', name: 'Machine chest press', muscles: ['chest', 'triceps'], equipment: 'machine', compound: true },
+  { id: 'cable-fly', name: 'Cable fly', muscles: ['chest'], equipment: 'cable', compound: false },
+  { id: 'pull-up', name: 'Pull-up', muscles: ['back', 'biceps'], equipment: 'bodyweight', compound: true },
+  { id: 'lat-pulldown', name: 'Lat pulldown', muscles: ['back', 'biceps'], equipment: 'machine', compound: true },
+  { id: 'barbell-row', name: 'Barbell row', muscles: ['back', 'biceps'], equipment: 'barbell', compound: true },
+  { id: 'seated-cable-row', name: 'Seated cable row', muscles: ['back', 'biceps'], equipment: 'cable', compound: true },
+  { id: 'dumbbell-shoulder-press', name: 'Dumbbell shoulder press', muscles: ['shoulders', 'triceps'], equipment: 'dumbbell', compound: true },
+  { id: 'lateral-raise', name: 'Lateral raise', muscles: ['shoulders'], equipment: 'dumbbell', compound: false },
+  { id: 'face-pull', name: 'Face pull', muscles: ['shoulders', 'back'], equipment: 'cable', compound: false },
+  { id: 'barbell-back-squat', name: 'Barbell back squat', muscles: ['quads', 'glutes', 'core'], equipment: 'barbell', compound: true },
+  { id: 'leg-press', name: 'Leg press', muscles: ['quads', 'glutes'], equipment: 'machine', compound: true },
+  { id: 'leg-extension', name: 'Leg extension', muscles: ['quads'], equipment: 'machine', compound: false },
+  { id: 'romanian-deadlift', name: 'Romanian deadlift', muscles: ['hamstrings', 'glutes', 'back'], equipment: 'barbell', compound: true },
+  { id: 'lying-leg-curl', name: 'Lying leg curl', muscles: ['hamstrings'], equipment: 'machine', compound: false },
+  { id: 'hip-thrust', name: 'Barbell hip thrust', muscles: ['glutes', 'hamstrings'], equipment: 'barbell', compound: true },
+  { id: 'dumbbell-lunge', name: 'Dumbbell lunge', muscles: ['quads', 'glutes'], equipment: 'dumbbell', compound: true },
+  { id: 'dumbbell-curl', name: 'Dumbbell curl', muscles: ['biceps'], equipment: 'dumbbell', compound: false },
+  { id: 'cable-triceps-pressdown', name: 'Cable triceps pressdown', muscles: ['triceps'], equipment: 'cable', compound: false },
+  { id: 'plank', name: 'Plank', muscles: ['core'], equipment: 'bodyweight', compound: false },
+  { id: 'hanging-knee-raise', name: 'Hanging knee raise', muscles: ['core'], equipment: 'bodyweight', compound: false },
+  { id: 'standing-calf-raise', name: 'Standing calf raise', muscles: ['calves'], equipment: 'machine', compound: false },
+  { id: 'dumbbell-deadlift', name: 'Dumbbell deadlift', muscles: ['hamstrings', 'glutes', 'back'], equipment: 'dumbbell', compound: true },
+];

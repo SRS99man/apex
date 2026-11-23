@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "APEX",
+    "slug": "apex-ai",
+    "scheme": "apex",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.apex.fit",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.apex.fit"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "12234b64-857d-4f38-8b2e-e3e3675af0a3"
+      }
+    }
+  }
+}
